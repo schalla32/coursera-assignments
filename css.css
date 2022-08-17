@@ -1,0 +1,67 @@
+body {background-color: white}
+
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+}
+
+.container-fluid {
+	position: relative;
+
+}
+
+.navbar-header {
+	position: abolsute;
+	top: 0;
+	left: 0;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	text-align: center;
+	color: blue;
+}
+
+h1, h2{
+	background-color: white;
+}
+h1 {
+	font-size: 2em;
+}
+h2 { 
+	font-size: 0.75em;
+	text-align: center; 
+}
+
+
+
+#chicken-home, #sushi-home, #beef-home {
+	color: white;
+	background-color: gray;
+	padding: 5px;
+	font-size: 0.75em;
+	height: 1000px;
+	margin: auto;
+}
+
+#collapsable-nav {
+	background-color: #D3D3D3;
+}
+@media( min-width: 768px) {
+.navbar-collapse.collapse, #collapsable-nav{
+	display: none!important;
+}
+}
+
+.container {
+	width: 98%;
+}
+
+
+
+
+
